@@ -1,19 +1,15 @@
-// Variables & Objects
 const student = {
   name: '',
   course: 'Web Development',
   year: 2025
 };
 
-// Array
 const favoriteTopics = ['Variables', 'Functions', 'DOM', 'Events'];
 
-// Function
 function greetStudent(name) {
   return `Hello, ${name}! Welcome to ${student.course} - Year ${student.year}.`;
 }
 
-// DOM Manipulation & Event Handling
 document.getElementById('showInfoBtn').addEventListener('click', () => {
   const nameInput = document.getElementById('studentName').value.trim();
   const output = document.getElementById('infoOutput');
